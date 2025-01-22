@@ -11,7 +11,7 @@ public class DivisibleByThreeFiveSeven {
         if (i%3==0 && i%7==0) {
             return "FizzBang";
         }
-        if (i==35) {
+        if (i%5==0 && i%7==0) {
             return "BuzzBang";
         }
         if (i%3==0) {
