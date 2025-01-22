@@ -5,7 +5,7 @@ public class DivisibleByThreeAndFive {
         if(i<1) {
             throw new IllegalArgumentException();
         }
-        if(i==15) {
+        if(i%3==0 && i%5==0) {
             return "FizzBuzz";
         }else if(i%3==0) {
             return "Fizz";
