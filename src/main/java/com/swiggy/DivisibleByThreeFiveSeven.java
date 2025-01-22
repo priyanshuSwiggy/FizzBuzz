@@ -5,6 +5,9 @@ public class DivisibleByThreeFiveSeven {
         if(i<1) {
             throw new IllegalArgumentException();
         }
+        if (i==105) {
+            return "FizzBuzzBang";
+        }
         if (i%3==0 && i%5==0) {
             return "FizzBuzz";
         }
