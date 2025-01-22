@@ -1,9 +1,10 @@
 package com.swiggy;
 
 public class DivisibleByThreeAndFive {
-    public String check(int i) {
-
+    public void check(int i) {
+        if(i<1) {
             throw new IllegalArgumentException();
+        }
 
     }
 }

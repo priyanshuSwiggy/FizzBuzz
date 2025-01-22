@@ -14,5 +14,10 @@ public class DivisibleByThreeAndFiveTest {
         assertThrows(IllegalArgumentException.class, () -> divisibleByThreeAndFive.check(-1));
     }
 
+    @Test
+    public void testExceptionThrownWhenInputZero() {
+        DivisibleByThreeAndFive divisibleByThreeAndFive = new DivisibleByThreeAndFive();
 
+        assertThrows(IllegalArgumentException.class, () -> divisibleByThreeAndFive.check(0));
+    }
 }
