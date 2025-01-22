@@ -101,4 +101,13 @@ public class DivisibleByThreeAndFiveTest {
 
         assertEquals("16", result);
     }
+
+    @Test
+    public void testReturnElevenWhenInputEleven() {
+        DivisibleByThreeAndFive divisibleByThreeAndFive = new DivisibleByThreeAndFive();
+
+        String result = divisibleByThreeAndFive.check(11);
+
+        assertEquals("11", result);
+    }
 }
