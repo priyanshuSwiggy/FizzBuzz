@@ -130,10 +130,10 @@ public class DivisibleByThreeFiveSevenTest {
     }
 
     @Test
-    public void testReturnFizzBangWhenInputThirtyFive() {
+    public void testReturnFizzBangWhenInputTwentyOne() {
         DivisibleByThreeFiveSeven divisibleByThreeFiveSeven = new DivisibleByThreeFiveSeven();
 
-        String result = divisibleByThreeFiveSeven.check(35);
+        String result = divisibleByThreeFiveSeven.check(21);
 
         assertEquals("FizzBang", result);
     }
