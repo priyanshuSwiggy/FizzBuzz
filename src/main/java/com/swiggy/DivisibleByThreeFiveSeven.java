@@ -14,7 +14,7 @@ public class DivisibleByThreeFiveSeven {
         if (i%5==0) {
             return "Buzz";
         }
-        if (i==7) {
+        if (i%7==0) {
             return "Bang";
         }
         return String.valueOf(i);

@@ -119,4 +119,13 @@ public class DivisibleByThreeFiveSevenTest {
 
         assertEquals("Bang", result);
     }
+
+    @Test
+    public void testReturnBangWhenInputFourteen() {
+        DivisibleByThreeFiveSeven divisibleByThreeFiveSeven = new DivisibleByThreeFiveSeven();
+
+        String result = divisibleByThreeFiveSeven.check(14);
+
+        assertEquals("Bang", result);
+    }
 }
