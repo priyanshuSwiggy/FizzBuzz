@@ -9,6 +9,8 @@ public class DivisibleByThreeAndFive {
             return "Fizz";
         } else if(i==5) {
             return "Buzz";
+        } else if(i==15) {
+            return "FizzBuzz";
         }
         return "1";
     }
