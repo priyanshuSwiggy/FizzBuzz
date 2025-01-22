@@ -20,4 +20,13 @@ public class DivisibleByThreeAndFiveTest {
 
         assertThrows(IllegalArgumentException.class, () -> divisibleByThreeAndFive.check(0));
     }
+
+    @Test
+    public void testReturnOneWhenInputOne() {
+        DivisibleByThreeAndFive divisibleByThreeAndFive = new DivisibleByThreeAndFive();
+
+        String result = divisibleByThreeAndFive.check(1);
+
+        assertEquals("1", result);
+    }
 }
