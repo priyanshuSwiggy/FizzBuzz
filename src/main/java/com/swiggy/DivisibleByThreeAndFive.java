@@ -12,6 +12,6 @@ public class DivisibleByThreeAndFive {
         } else if(i==15) {
             return "FizzBuzz";
         }
-        return "1";
+        return String.valueOf(i);
     }
 }
