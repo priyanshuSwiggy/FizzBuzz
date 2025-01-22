@@ -5,6 +5,9 @@ public class DivisibleByThreeAndFive {
         if(i<1) {
             throw new IllegalArgumentException();
         }
+        if(i==3) {
+            return "Fizz";
+        }
         return "1";
     }
 }

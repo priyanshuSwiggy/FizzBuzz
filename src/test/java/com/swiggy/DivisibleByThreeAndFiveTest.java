@@ -29,4 +29,13 @@ public class DivisibleByThreeAndFiveTest {
 
         assertEquals("1", result);
     }
+
+    @Test
+    public void testReturnFizzWhenInputThree() {
+        DivisibleByThreeAndFive divisibleByThreeAndFive = new DivisibleByThreeAndFive();
+
+        String result = divisibleByThreeAndFive.check(3);
+
+        assertEquals("Fizz", result);
+    }
 }
