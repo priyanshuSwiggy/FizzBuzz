@@ -173,4 +173,13 @@ public class DivisibleByThreeFiveSevenTest {
 
         assertEquals("FizzBuzzBang", result);
     }
+
+    @Test
+    public void testReturnFizzBuzzBangWhenInputTwoHundredTen() {
+        DivisibleByThreeFiveSeven divisibleByThreeFiveSeven = new DivisibleByThreeFiveSeven();
+
+        String result = divisibleByThreeFiveSeven.check(210);
+
+        assertEquals("FizzBuzzBang", result);
+    }
 }
