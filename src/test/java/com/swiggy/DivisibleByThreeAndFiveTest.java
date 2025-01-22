@@ -92,4 +92,13 @@ public class DivisibleByThreeAndFiveTest {
 
         assertEquals("FizzBuzz", result);
     }
+
+    @Test
+    public void testReturnSixteenWhenInputSixteen() {
+        DivisibleByThreeAndFive divisibleByThreeAndFive = new DivisibleByThreeAndFive();
+
+        String result = divisibleByThreeAndFive.check(16);
+
+        assertEquals("16", result);
+    }
 }
